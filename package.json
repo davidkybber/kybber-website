@@ -4,6 +4,7 @@
   "description": "My repository containing everything needed to host my own blog, projects, and anything else that I come up with.",
   "main": "index.js",
   "scripts": {
+    "build": "npx @11ty/eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

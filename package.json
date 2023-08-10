@@ -1,0 +1,15 @@
+{
+  "name": "kybber-website",
+  "version": "1.0.0",
+  "description": "My repository containing everything needed to host my own blog, projects, and anything else that I come up with.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

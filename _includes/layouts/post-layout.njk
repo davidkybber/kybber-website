@@ -1,9 +1,3 @@
----
-title: David Billdal
-eleventyNavigation:
-  key: My Blogs
----
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,10 +8,10 @@ eleventyNavigation:
   </head>
   <body>
     <main>
-        <h1>My blogs</h1>
         <nav>
-          {{ collections.all | eleventyNavigation("My Blogs") | eleventyNavigationToHtml | safe }}
+          {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
         </nav>
+      <article> {{ content | safe }} </article>
     </main>
   </body>
 </html>

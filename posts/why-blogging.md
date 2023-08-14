@@ -1,5 +1,7 @@
 ---
 title: "DRAFT Why Blogging"
+eleventyNavigation:
+  key: Why Blogging
 ---
 # {{ title }}
 "Hey Blog!" was the catch phrase of one of the most popular blogs I grew up with in Norway. It was back in the days when the term "influencer" wasn't even a term yet, and the blogs that I got exposed to were mainly driven by young girls and boys looking to share their life and views with the world. They would bring up problems regarding mobbing, how to do makeup, fashion, fatshaming, and other topics that were on our minds then. Nowadays I'm reading blogs on a weekly basis to find opinions on tech topics or learn how to implement a technical feature. The blogs I read and are exposed to have changed drastically, but I think that, at it's core, the reasoning for writing blogs are still the same.

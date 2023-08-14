@@ -13,11 +13,9 @@ title: David Billdal
   <body>
     <main>
         <h1>My blogs</h1>
-        <ul>
-          {% for post in collections.posts %}
-              <li><a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
-          {% endfor %}
-        </ul>
+        <nav>
+          {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+        </nav>
     </main>
   </body>
 </html>

@@ -25,8 +25,8 @@ jobs:
 
       - name: Install dependencies & build
         run: |
-          npm ci
-          npm run build
+          yarn
+          yarn run build
 
       - name: Fix permissions
         run: |

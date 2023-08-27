@@ -4,6 +4,15 @@ layout: layouts/base.njk
 
 
 <article>
-  <h1 class="title is-1">{{ title }}</h1>
-  {{ content | safe }}
+  <section class="hero is-primary">
+    <div class="hero-body">
+      <h1 class="title is-1">{{ title }}</h1>
+      <p class="subtitle">
+        Date
+      </p>
+    </div>
+  </section>
+  <section class="section">
+    {{ content | safe }}
+  </section>
 </article>

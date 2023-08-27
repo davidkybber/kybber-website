@@ -2,9 +2,8 @@
 layout: layouts/base.njk
 ---
 
-
 <article>
-  <section class="hero is-primary">
+  <section class="hero has-background-primary-light">
     <div class="hero-body">
       <h1 class="title is-1">{{ title }}</h1>
       <p class="subtitle">
@@ -13,6 +12,8 @@ layout: layouts/base.njk
     </div>
   </section>
   <section class="section">
-    {{ content | safe }}
+    <div class="container">
+      {{ content | safe }}
+    </div>
   </section>
 </article>

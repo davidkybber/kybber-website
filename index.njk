@@ -4,3 +4,25 @@ layout: layouts/base.njk
 eleventyNavigation:
   key: My Blogs
 ---
+
+<section class="hero is-fullheight-with-navbar">
+  <div class="hero-head">
+    <div class="section"></div>
+    <div class="container has-text-centered">
+      <div class="title">
+        Recent Blog Posts
+      </div>
+      <div class="list subtitle">
+        {%- for post in collections.posts -%}
+        <div class="list-item">
+          <li>
+            <a href="{{ post.url | url }}">
+              {{ post.data.title }}
+            </a>
+          </li>
+        </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</section>

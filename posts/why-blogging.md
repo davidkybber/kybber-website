@@ -3,6 +3,7 @@ title: "Why Blogging"
 metatitle: "Why you should start with blogging"
 metadescription: "A blog on why you should start with blogging!"
 layout: layouts/post.njk
+date: Last Modified
 eleventyNavigation:
   key: Why Blogging
   parent: My Blogs

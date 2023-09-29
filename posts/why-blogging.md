@@ -1,5 +1,7 @@
 ---
 title: "DRAFT Why Blogging"
+metatitle: "Why you should start with blogging"
+metadescription: "A blog on why you should start with blogging!"
 layout: layouts/post.njk
 eleventyNavigation:
   key: Why Blogging

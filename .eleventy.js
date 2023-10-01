@@ -16,5 +16,5 @@ md.use(markdownItClass, mapping);
 module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary('md', md);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
-  eleventyConfig.addPassthroughCopy("styles/debug.css");
+  eleventyConfig.addPassthroughCopy("images");
 };

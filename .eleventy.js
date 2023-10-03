@@ -17,4 +17,5 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary('md', md);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPassthroughCopy("images");
+  eleventyConfig.addPassthroughCopy("js");
 };

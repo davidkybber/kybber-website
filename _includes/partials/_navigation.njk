@@ -16,12 +16,10 @@
     </a>
   </div>
 
-  <div id="myBlogsNavbarMenu" class="navbar-menu">
+  <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-start">
       <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          My Blogs
-        </a>
+        <a class="navbar-link"> My Blogs </a>
         {%- for post in collections.posts -%}
         <div class="navbar-dropdown">
           <a href="{{ post.url | url }}" class="navbar-item">
@@ -31,10 +29,10 @@
         {%- endfor -%}
       </div>
     </div>
-    <div class="navbar-end"></div>
-      <a class="navbar-item" href="/about">
-        <span>About</span> 
-      </a>
-    </div>
+      <div class="navbar-end">
+        <a class="navbar-item" href="/about">
+          <span>About</span>
+        </a>
+      </div>
   </div>
 </nav>

@@ -18,23 +18,23 @@
       <div class="navbar-start">
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link"> Blog Posts </a>
-          {%- for post in collections.posts -%}
           <div class="navbar-dropdown">
+          {%- for post in collections.posts -%}
             <a href="{{ post.url | url }}" class="navbar-item">
               {{ post.data.title }}
             </a>
-          </div>
           {%- endfor -%}
+          </div>
         </div>
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link"> Projects </a>
-          {%- for post in collections.projects -%}
           <div class="navbar-dropdown">
+          {%- for project in collections.projects -%}
             <a href="{{ post.url | url }}" class="navbar-item">
               {{ project.data.title }}
             </a>
-          </div>
           {%- endfor -%}
+          </div>
         </div>
       </div>
       <div class="navbar-end">

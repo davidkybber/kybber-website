@@ -7,7 +7,9 @@ date: Last Modified
 eleventyNavigation:
   key: Beyond Being a Resource
   parent: My Blogs
+intro: My 50 cents on what I think on the term of Resource for tech consultants, and what else there is to the role.
 ---
+
 Some weeks ago I was sitting at a bar having a casual conversation with one of the younger guys at the table. He had recently worked in an internship for a consultancy, and wasn’t very interested in going down that path. When I asked why, he said: “Consultants are just resources anyway, filling a role that they short term are missing. It's nice to have multiple projects and clients, but you can achieve that too within a company or simply change companies from time to time.”. At the time I didn’t have a solid answer, simply stating that consultants usually are experts in their field and can fix hard to solve problems. But in hindsight I think it’s much, much more than that. I will try to explain why I think Tech Consultants are more than just a resource, and what potential value lies in the role. 
 
 ## The cursed word Resource

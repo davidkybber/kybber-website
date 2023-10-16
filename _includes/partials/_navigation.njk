@@ -30,7 +30,7 @@
           <a class="navbar-link"> Projects </a>
           <div class="navbar-dropdown">
           {%- for project in collections.projects -%}
-            <a href="{{ post.url | url }}" class="navbar-item">
+            <a href="{{ project.url | url }}" class="navbar-item">
               {{ project.data.title }}
             </a>
           {%- endfor -%}

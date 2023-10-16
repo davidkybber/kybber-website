@@ -8,16 +8,29 @@ layout: layouts/base.njk
 <section class="hero is-fullheight-with-navbar">
   <div class="hero-head">
     <div class="section"></div>
-    <div class="columns section">
-      <div class="column is-half is-offset-one-quarter">
-        <div class="title is-size-6" style="color: rgb(230, 0, 103)">Recently Published</div>
+    <div class="columns">
+      <div class="column is-3 is-offset-2">
+        <div class="title is-size-6" style="color: rgb(230, 0, 103)">Recent Blog Posts</div>
         {%- for post in collections.posts -%}
         <div class="block">
           <a href="{{ post.url | url }}">
             {{ post.data.title }}
-          <p class="subtitle is-size-7"> 
-            {{ post.data.intro }} 
-          </p>
+            <p class="subtitle is-size-7">
+              {{ post.data.intro }}
+            </p>
+          </a>
+        </div>
+        {%- endfor -%}
+      </div>
+      <div class="column is-3 is-offset-2">
+        <div class="title is-size-6" style="color: rgb(230, 0, 103)">Projects</div>
+        {%- for project in collections.projects -%}
+        <div class="block">
+          <a href="{{ post.url | url }}">
+            {{ project.data.title }}
+            <p class="subtitle is-size-7">
+              {{ project.data.intro }}
+            </p>
           </a>
         </div>
         {%- endfor -%}

@@ -1,11 +1,11 @@
 ---
-title: "Project: Personal Website"
+title: "Personal Website"
 metatitle: "Blog post on Building a Personal Website"
 metadescription: "Post on how I setup my personal website, which steps I needed to do."
 layout: layouts/post.njk
 date: Last Modified
 eleventyNavigation:
-  key: Project Personal Website
+  key: Personal Website
   parent: Projects
 intro: How I setup my personal website, which goals I had in mind while choosing the different tools for the job, and a simple overview of the steps needed to make the website up and running. 
 ---

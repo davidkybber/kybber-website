@@ -81,7 +81,5 @@ As the project has reached its version 1.0 stage, where I now can use the postin
 - With my own host, create a comment section and state for the page, with user statistics
 
 ## Github
-You can find the project at my Github repository here: github https://github.com/davidkybber/kybber-website.
-
-
+You can find the project at my Github repository here: https://github.com/davidkybber/kybber-website.
 

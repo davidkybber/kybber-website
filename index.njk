@@ -8,7 +8,7 @@ layout: layouts/base.njk
 <section class="hero is-fullheight-with-navbar">
   <div class="hero-head">
     <div class="section"></div>
-    <div class="columns">
+    <div class="columns section">
       <div class="column is-3 is-offset-2">
         <div class="title is-size-6" style="color: rgb(230, 0, 103)">Recent Blog Posts</div>
         {%- for post in collections.posts -%}
@@ -25,13 +25,20 @@ layout: layouts/base.njk
       <div class="column is-3 is-offset-2">
         <div class="title is-size-6" style="color: rgb(230, 0, 103)">Projects</div>
         {%- for project in collections.projects -%}
-        <div class="block">
-          <a href="{{ post.url | url }}">
-            {{ project.data.title }}
-            <p class="subtitle is-size-7">
-              {{ project.data.intro }}
-            </p>
-          </a>
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="/images/dabi-logo.svg" alt="Placeholder image" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <a href="{{ post.url | url }}">
+              {{ project.data.title }}
+              <p class="subtitle is-size-7">
+                {{ project.data.intro }}
+              </p>
+            </a>
+          </div>
         </div>
         {%- endfor -%}
       </div>

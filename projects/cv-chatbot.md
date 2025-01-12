@@ -8,6 +8,7 @@ eleventyNavigation:
   key: CV Chatbot
   parent: Projects
 intro: How I built a CV chatbot, which technologies I used and how it works. 
+image: /images/ai-project.png
 ---
 
 # Building a Modern CV Chatbot with GPT-4, Angular, and Azure Functions

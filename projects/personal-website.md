@@ -8,6 +8,7 @@ eleventyNavigation:
   key: Personal Website
   parent: Projects
 intro: How I setup my personal website, which goals I had in mind when choosing the different tools for the job, and a simple overview of the steps taken to get the website up and running. 
+image: /images/dabi-logo.svg
 ---
 
 Inspired by one of my friends to try out blogging, to reflect by writing and expressing my opinions publicly, I got to putting it into action during my Sabbatical. Here I will give an overview of the details of the project, and how it was technically implemented.

@@ -1,3 +1,15 @@
+---
+title: "CV Chatbot"
+metatitle: "Blog post on building a CV chatbot"
+metadescription: "Post on how I built a CV chatbot, which technologies I used and how it works."
+layout: layouts/post.njk
+date: Last Modified
+eleventyNavigation:
+  key: CV Chatbot
+  parent: Projects
+intro: How I built a CV chatbot, which technologies I used and how it works. 
+---
+
 # Building a Modern CV Chatbot with GPT-4, Angular, and Azure Functions
 
 In this blog post, I'll walk you through how I built an interactive CV chatbot that allows users to have natural conversations about my professional experience. The project combines modern web technologies with AI to create an engaging way to explore my career information.
